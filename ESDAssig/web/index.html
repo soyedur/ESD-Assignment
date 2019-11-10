@@ -6,27 +6,31 @@ and open the template in the editor.
 -->
 <html>
     <head>
-         <meta charset="UTF-8">
+        <meta charset="UTF-8">
         <title>Login Form</title>
         <link rel="stylesheet" href="style.css">
-       
+
     <body>
         <div class="login-box">
             <h1>Login</h1>
-            <div class="textbox">
-                <input type="text" placeholder="Username" name="username" value="">
-            </div>
-
-            <div class="textbox">
-                <input type="password" placeholder="Password" name="password" value="">
-            </div>
-
             <form action="FirstServlet" method="post">
-                <input class="btn" type="button" name="submit" value="Sign in">
+                <div class="textbox">
+                    <input type="text" placeholder="Username" name="username" value="">
+                </div>
+
+                <div class="textbox">
+                    <input type="password" placeholder="Password" name="password" value="">
+                </div>
+
+                <div class="btn"> 
+                    <button>Login</button>
+                </div>
             </form>
-            
-            <form method="post" action="register.html"><br>
-                <input class="btn" type="button" name="register" value="Register">
+
+            <form method="post" action="register.html"><br/>
+                <div class="btn">
+                    <button>Register</button>
+                </div>
             </form>
 
         </div>
