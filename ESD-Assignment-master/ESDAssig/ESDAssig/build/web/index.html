@@ -6,18 +6,41 @@ and open the template in the editor.
 -->
 <html>
     <head>
-        <title>TODO supply a title</title>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    </head>
+        <title>Login Form</title>
+        <link rel="stylesheet" href="style.css">
+
     <body>
-        <form action="FirstServlet" method="post">  
-            Name:<input type="text" name="username"/><br/><br/>  
-            Password:<input type="password" name="password"/><br/><br/>  
-            <input type="submit" value="login"/>
-        </form>  
-        <form method="post" action="register.html"><br/>  
-            <button type="submit">Register</button>
-        </form>
+        <div class="login-box">
+            <h1>Login</h1>
+            <form action="FirstServlet" method="post">
+                <div class="textbox">
+                    <input type="text" placeholder="Username" name="username" value="">
+                </div>
+
+                <div class="textbox">
+                    <input type="password" placeholder="Password" name="password" value="">
+                </div>
+
+                <div class="btn"> 
+                    <button>Login</button>
+                </div>
+            </form>
+
+            <form method="post" action="register.html"><br/>
+                <div class="btn">
+                    <button>Register</button>
+                </div>
+            </form>
+
+        </div>
     </body>
 </html>
+
+
+
+
+
+
+
+
