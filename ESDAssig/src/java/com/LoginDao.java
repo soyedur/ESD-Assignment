@@ -21,16 +21,10 @@ public class LoginDao {
                     "jdbc:derby://localhost:1527/XYZ_assoc", "root", "password");
 
             PreparedStatement ps = con.prepareStatement(
-                    "select * from USERS where id=? and password=? and status=?");
+                    "select * from USERS where id=? and password=?");
             ps.setString(1, name);
             ps.setString(2, pass);
-            String wow = null;
-            ps.setString(3,wow);
-            
-            if(wow == "unApproved"){
-                System.out.println("This acc is unApproved");
-            }
-            
+         
 
             ResultSet rs = ps.executeQuery();
             status = rs.next();
