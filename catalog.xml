@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="system">
+    <system systemId="http://localhost:8080/CalculatorWSApplication/NewWebServiceCalculatorWS?wsdl" uri="src/conf/xml-resources/web-service-references/NewWebServiceCalculatorWS/wsdl/localhost_8080/CalculatorWSApplication/NewWebServiceCalculatorWS.wsdl"/>
+    <system systemId="http://localhost:8080/CalculatorWSApplication/NewWebServiceCalculatorWS?xsd=1" uri="src/conf/xml-resources/web-service-references/NewWebServiceCalculatorWS/wsdl/localhost_8080/CalculatorWSApplication/NewWebServiceCalculatorWS.xsd_1.xsd"/>
+    <system systemId="http://localhost:8080/CalculatePayoutWSApplication/CalculatePayoutWS?wsdl" uri="src/conf/xml-resources/web-service-references/CalculatePayoutWS/wsdl/localhost_8080/CalculatePayoutWSApplication/CalculatePayoutWS.wsdl"/>
+    <system systemId="http://localhost:8080/CalculatePayoutWSApplication/CalculatePayoutWS?xsd=1" uri="src/conf/xml-resources/web-service-references/CalculatePayoutWS/wsdl/localhost_8080/CalculatePayoutWSApplication/CalculatePayoutWS.xsd_1.xsd"/>
+    <system systemId="http://localhost:8080/AddressLookupWSApplication/AddressLookupWS?wsdl" uri="src/conf/xml-resources/web-service-references/AddressLookupWS/wsdl/localhost_8080/AddressLookupWSApplication/AddressLookupWS.wsdl"/>
+    <system systemId="http://localhost:8080/AddressLookupWSApplication/AddressLookupWS?xsd=1" uri="src/conf/xml-resources/web-service-references/AddressLookupWS/wsdl/localhost_8080/AddressLookupWSApplication/AddressLookupWS.xsd_1.xsd"/>
+</catalog>
